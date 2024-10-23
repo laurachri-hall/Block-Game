@@ -1,3 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    font-size: 1.6rem;
+    margin: auto;
+    max-width: 60rem;
+    color: #1f0ffa;
+    background: radial-gradient(
+      circle,
+      rgb(42, 178, 241) 0%,
+      rgb(37, 86, 200) 89%,
+      rgb(34, 12, 198) 100%
+    );
+  }
+
 .container {
     display: flex;
 }
